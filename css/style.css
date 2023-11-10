@@ -631,6 +631,11 @@ footer{
     grid-template-columns: 2fr 1fr 1fr 1fr 2fr;
     grid-gap: 50px;
 }
+.footer-box .logo{
+    display: flex;
+    align-items: baseline;
+    justify-content: space-around;
+}
 .footer-box strong{
     color: #363636;
     font-size: 1.6rem;
