@@ -920,3 +920,76 @@ footer{
 .mySwipertest .swiper-pagination{
     position: static !important;
 }
+
+/* dropdown */
+  .dp_button {
+    border: none;
+    background: none;
+    color: inherit;
+    cursor: pointer;
+  }
+  
+  .dropdown {
+    position: relative;
+  }
+  
+  .dropdown__button {
+    padding: 1rem 2rem;
+    background-color: #c8cafe;
+    border-radius: 0.5rem;
+    border: solid 1px #fff;
+    font-weight: 600;
+    transition: all ease 0.3s;
+  }
+  
+  .dropdown__button i {
+    margin-left: 1rem;
+}
+  
+  .dropdown__button:hover {
+    background-color: #abaeff;
+  }
+  
+  .dropdown__items {
+    background-color: #c8cafe;
+    position: absolute;
+    margin-top: 0.5rem;
+    left: 0;
+    width: auto;
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    animation: open 0.3s;
+    transform-origin: top left;
+    font-weight: 600;
+  }
+  
+  .dropdown__item {
+    width: 100%;
+    text-align: left;
+    padding: 1rem;
+    font-weight: 600;
+  }
+  
+  .dropdown__item:hover {
+    background-color: #abaeff;
+    border-radius: 0.5rem;
+  }
+  
+  .dropdown--hide {
+    display: none;
+  }
+  
+  .dropdown--show {
+    display: block;
+  }
+  
+  @keyframes open {
+    from {
+      transform: scaleY(0);
+    }
+  
+    to {
+      transform: scaleY(1);
+    }
+  }

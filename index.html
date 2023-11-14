@@ -23,6 +23,7 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
 
+
 <!-- Link Swiper's CSS -->
     <link
       rel="stylesheet"
@@ -51,10 +52,19 @@
             <li><a href="#trending">Trending</a></li>
             <li><a href="#destination">Destination</a></li>
             <li><a href="#testimonials">Testimonials</a></li>
+            
         </ul>
 
         <!--book-now-btn-->
-            <a href="#" class="book-now-btn">Book Now</a>
+       
+           
+          <div class="dropdown">
+            <button class="dp_button dropdown__button">Uzb</button>
+            <div class="dropdown__items dropdown--hide">
+              <button class="dp_button dropdown__item">Rus</button>
+              <button class="dp_button dropdown__item">Eng</button>
+            </div>
+          </div>          
 
     </nav>
     <!--nav-end-->
@@ -153,13 +163,13 @@
                 </div>
                 <!--text-->
                 <div class="t-b-text">
-                    <a href="#">Tashkent</a>
+                    <a href="./tours/tashkent.html">Tashkent</a>
                     <span>30 Places | 7 days</span>
                 </div>
                 <!--price-&-Book-->
                 <div class="price-book">
                     <span class="t-price">350 000 so'm</span>
-                    <a href="#" class="t-book-btn">Book Now</a>
+                    <a href="./tours/tashkent.html" class="t-book-btn">Book Now</a>
                 </div>
                 <!--agency-name-->
                 <div class="agency-name">
@@ -180,13 +190,13 @@
                 </div>
                 <!--text-->
                 <div class="t-b-text">
-                    <a href="#">Samarkand</a>
+                    <a href="./tours/samarkand.html">Samarkand</a>
                     <span>25 Places | 3 days</span>
                 </div>
                 <!--price-&-Book-->
                 <div class="price-book">
                     <span class="t-price">200 000 so'm</span>
-                    <a href="#" class="t-book-btn">Book Now</a>
+                    <a href="./tours/samarkand.html" class="t-book-btn">Book Now</a>
                 </div>
                 <!--agency-name-->
                 <div class="agency-name">
@@ -207,13 +217,13 @@
                 </div>
                 <!--text-->
                 <div class="t-b-text">
-                    <a href="#">Bukhara</a>
+                    <a href="./tours/bukhara.html">Bukhara</a>
                     <span>20 Places | 7 days</span>
                 </div>
                 <!--price-&-Book-->
                 <div class="price-book">
                     <span class="t-price">500 000 so'm</span>
-                    <a href="#" class="t-book-btn">Book Now</a>
+                    <a href="./tours/bukhara.html" class="t-book-btn">Book Now</a>
                 </div>
                 <!--agency-name-->
                 <div class="agency-name">
@@ -519,7 +529,7 @@
             </div>
 
             <!--footer-box***********************-->
-            <div class="footer-box">
+            <!-- <div class="footer-box">
                 <strong>Links</strong>
                 <ul>
                     <li><a href="#">Home</a></li>
@@ -529,11 +539,11 @@
                     <li><a href="#">Book Online</a></li>
                     <li><a href="#">Contact</a></li>
                 </ul>
-            </div>
+            </div> -->
 
 
             <!--footer-box***********************-->
-            <div class="footer-box">
+            <!-- <div class="footer-box">
                 <strong>Social</strong>
                 <ul>
                     <li><a href="#">Home</a></li>
@@ -543,7 +553,7 @@
                     <li><a href="#">Book Online</a></li>
                     <li><a href="#">Contact</a></li>
                 </ul>
-            </div>
+            </div> -->
 
 
             <!--footer-box***********************-->
@@ -551,11 +561,9 @@
                 <strong>External</strong>
                 <ul>
                     <li><a href="#">Home</a></li>
-                    <li><a href="#">About</a></li>
-                    <li><a href="#">Destinations</a></li>
                     <li><a href="#">Trending</a></li>
-                    <li><a href="#">Book Online</a></li>
-                    <li><a href="#">Contact</a></li>
+                    <li><a href="#">Destination</a></li>
+                    <li><a href="#">Testimonials</a></li>
                 </ul>
             </div>
 
@@ -618,6 +626,7 @@
     // Call updateYear once to set the initial value, and you can remove the setInterval
     updateYear();
     </script>
+    <script src="./js/app.js"></script>
 </body>
 
 </html>
