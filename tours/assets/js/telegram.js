@@ -20,7 +20,7 @@ document.querySelector(".proceed-link button").addEventListener("click", functio
     const botToken = "6413722833:AAEIFbmhmEmfU9gtP-fQ0lt-IpmzGORZNAY";
 
     // Your Telegram Chat ID (Replace with your actual Chat ID)
-    const chatId = "-4070419751";
+    const chatId = "-4024486154";
 
     // Create a message with all the form data and selected payment method
     let message = "New booking:\n";
