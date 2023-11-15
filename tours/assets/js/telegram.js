@@ -55,7 +55,7 @@ document.querySelector(".proceed-link button").addEventListener("click", functio
                     var merchantInput = document.createElement('input');
                     merchantInput.type = 'hidden';
                     merchantInput.name = 'merchant';
-                    merchantInput.value = '65320c6b3ad464cc74d2e6ae';
+                    merchantInput.value = '6551cdb5f2c97d1130e73c19';
                     form.appendChild(merchantInput);
 
                     var amountInput = document.createElement('input');
@@ -100,7 +100,7 @@ document.querySelector(".proceed-link button").addEventListener("click", functio
                     form.submit();
 
                 } else if (selectedPaymentMethod === "cash") {
-                    window.location.href = "https://minaret-travel.vercel.app/";
+                    window.location.href = "#";
                 } else {
                     alert("Booking submitted successfully!");
                 }
